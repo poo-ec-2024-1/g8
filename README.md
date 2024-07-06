@@ -1,6 +1,6 @@
 # Documentação do Projeto: Hemograma Completo em Java
 
-## Introdução
+## Seção 1 - Introdução
 
 *Justificativa:*
 
@@ -18,7 +18,7 @@ A motivação deste projeto surge da necessidade de modernizar e otimizar os pro
 
 
 
-## Plano
+## Seção 2 - Plano
 
 *Objetivo Geral:*
 
@@ -41,3 +41,13 @@ Desenvolver um software em Java para realizar a análise automatizada de hemogra
 
 - Implementar uma base de dados eficiente para o armazenamento seguro dos resultados dos hemogramas.
 - Garantir a confidencialidade e a integridade dos dados armazenados.
+
+
+
+## Seção 3 - Divisão de tarefas
+
+- **Líder:** Ana Clara Fortunato de Souza.
+- **Testador:** João Pedro Lopes Siviero.
+- **Analista de Sistemas:** Jeovane do Nascimento Mendonça.
+- **Desenvolvedor Backend:** Iker Marciel Lopategui.
+- **Desenvolvedor Frontend:** Gabriel Ferreira dos Santos.
