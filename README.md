@@ -109,4 +109,4 @@ Desenvolver um software em Java para realizar a análise automatizada de hemogra
 
 ## Seção 4 - Modelagem inicial
 
-![Diagrama de Classes](file:///C:/Users/usu%C3%A1rio/Downloads/IMG-20240707-WA0014.jpg)
+![Diagrama de Classes](https://drive.google.com/file/d/1dheZCZQjnMnPMay5JewdE30-bxwb5a5f/view?usp=sharing)
