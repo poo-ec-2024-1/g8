@@ -47,7 +47,7 @@ Desenvolver um software em Java para realizar a análise automatizada de hemogra
 ## Seção 3 - Divisão de tarefas
 
 - **Líder:** [Ana Clara Fortunato de Souza](https://github.com/anafortunato27)
-- **Testador:** [João Pedro Lopes Siviero]()
+- **Testador:** [João Pedro Lopes Siviero](https://github.com/fraagelo)
 - **Analista de Sistemas:** [Jeovane do Nascimento Mendonça](https://github.com/jeovane2001)
 - **Desenvolvedor Backend:** [Iker Marciel Lopategui](https://github.com/Iker-Lopategui)
 - **Desenvolvedor Frontend:** [Gabriel Ferreira dos Santos](https://github.com/CodeByGabriel)
