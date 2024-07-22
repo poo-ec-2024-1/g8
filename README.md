@@ -29,18 +29,18 @@ Desenvolver um software em Java para realizar a análise automatizada de hemogra
 
 **Análise de Hemogramas:**
 
-    - Criar algoritmos para a análise detalhada dos componentes sanguíneos, incluindo contagem de hemácias, leucócitos e plaquetas.
-    - Desenvolver métodos para a identificação de anomalias e condições clínicas com base nos dados analisados.
+- Criar algoritmos para a análise detalhada dos componentes sanguíneos, incluindo contagem de hemácias, leucócitos e plaquetas.
+- Desenvolver métodos para a identificação de anomalias e condições clínicas com base nos dados analisados.
 
 **Interface do Usuário:**
 
-    - Criar uma interface amigável e intuitiva para facilitar a interação dos usuários com o software.
-    - Incluir funcionalidades de visualização e navegação dos dados e relatórios.
+- Criar uma interface amigável e intuitiva para facilitar a interação dos usuários com o software.
+- Incluir funcionalidades de visualização e navegação dos dados e relatórios.
 
 **Armazenamento e Gerenciamento de Dados:**
 
-    - Implementar uma base de dados eficiente para o armazenamento seguro dos resultados dos hemogramas.
-    - Garantir a confidencialidade e a integridade dos dados armazenados.
+- Implementar uma base de dados eficiente para o armazenamento seguro dos resultados dos hemogramas.
+- Garantir a confidencialidade e a integridade dos dados armazenados.
 
 
 
