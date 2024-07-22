@@ -1,3 +1,4 @@
+
 import java.util.Map;
 import java.util.Scanner;
 
@@ -35,8 +36,24 @@ public class Main {
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         Scanner scanner = new Scanner(System.in);
+
+        // Especificando o caminho do banco de dados
+        String databasePath = System.getProperty("user.dir") + "/pacientes.db";
+        Database db = new Database(databasePath);
+        PacienteRepository pacienteRepository = new PacienteRepository(db.getConnection());
+
+        // Criando um novo paciente
+        System.out.print("Nome do paciente: ");
+        String nome = scanner.next();
+        System.out.print("Idade do paciente: ");
+        int idade = scanner.nextInt();
+        System.out.print("Sexo do paciente (m/f): ");
+        char sexo = scanner.next().charAt(0);
+
+        Paciente paciente = new Paciente(nome, idade, sexo);
+        pacienteRepository.create(paciente);
 
         // Criação dos valores de referência
         ValoresReferencia valoresReferencia = new ValoresReferencia();
@@ -53,16 +70,31 @@ public class Main {
             hemograma.adicionarValor(parametro, valor);
         }
 
-        // Comparação com os valores referência
+        // Comparação com os valores de referência e armazenamento dos resultados
+        StringBuilder resultados = new StringBuilder();
         Map<String, FaixaValores> valoresReferenciaUsuario = valoresReferencia.obterValores(categoria);
         for (String parametro : hemograma.valores.keySet()) {
             double valor = hemograma.obterValor(parametro);
             FaixaValores faixaValores = valoresReferenciaUsuario.get(parametro);
             if (valor < faixaValores.getMin() || valor > faixaValores.getMax()) {
-                System.out.println(parametro + " fora do valor de referência: " + valor + " " + faixaValores.getUnidade());
+                resultados.append(parametro).append(" fora do valor de referência: ").append(valor).append(" ")
+                    .append(faixaValores.getUnidade()).append(" (Valor de referência: ")
+                    .append(faixaValores.getMin()).append(" - ").append(faixaValores.getMax()).append(" ")
+                    .append(faixaValores.getUnidade()).append(")\n");
             }
         }
 
+        // Salvando os resultados no paciente
+        paciente.setResultados(resultados.toString());
+        pacienteRepository.update(paciente);
+
+        // Exibindo os resultados armazenados
+        Paciente pacienteFromDb = pacienteRepository.read(paciente.getId());
+        System.out.println("Resultados armazenados:\n" + pacienteFromDb.getResultados());
+
+        // Fechando a conexão com o banco de dados
+        pacienteRepository.close();
+        db.close();
         scanner.close();
     }
 }

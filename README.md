@@ -29,81 +29,81 @@ Desenvolver um software em Java para realizar a análise automatizada de hemogra
 
 **Análise de Hemogramas:**
 
-- Criar algoritmos para a análise detalhada dos componentes sanguíneos, incluindo contagem de hemácias, leucócitos e plaquetas.
-- Desenvolver métodos para a identificação de anomalias e condições clínicas com base nos dados analisados.
+    - Criar algoritmos para a análise detalhada dos componentes sanguíneos, incluindo contagem de hemácias, leucócitos e plaquetas.
+    - Desenvolver métodos para a identificação de anomalias e condições clínicas com base nos dados analisados.
 
 **Interface do Usuário:**
 
-- Criar uma interface amigável e intuitiva para facilitar a interação dos usuários com o software.
-- Incluir funcionalidades de visualização e navegação dos dados e relatórios.
+    - Criar uma interface amigável e intuitiva para facilitar a interação dos usuários com o software.
+    - Incluir funcionalidades de visualização e navegação dos dados e relatórios.
 
 **Armazenamento e Gerenciamento de Dados:**
 
-- Implementar uma base de dados eficiente para o armazenamento seguro dos resultados dos hemogramas.
-- Garantir a confidencialidade e a integridade dos dados armazenados.
+    - Implementar uma base de dados eficiente para o armazenamento seguro dos resultados dos hemogramas.
+    - Garantir a confidencialidade e a integridade dos dados armazenados.
 
 
 
 ## Seção 3 - Divisão de tarefas
 
-- **Líder:** Ana Clara Fortunato de Souza.
-- **Testador:** João Pedro Lopes Siviero.
-- **Analista de Sistemas:** Jeovane do Nascimento Mendonça.
-- **Desenvolvedor Backend:** Iker Marciel Lopategui.
-- **Desenvolvedor Frontend:** Gabriel Ferreira dos Santos.
+- **Líder:** [Ana Clara Fortunato de Souza](https://github.com/anafortunato27)
+- **Testador:** [João Pedro Lopes Siviero]()
+- **Analista de Sistemas:** [Jeovane do Nascimento Mendonça](https://github.com/jeovane2001)
+- **Desenvolvedor Backend:** [Iker Marciel Lopategui](https://github.com/Iker-Lopategui)
+- **Desenvolvedor Frontend:** [Gabriel Ferreira dos Santos](https://github.com/CodeByGabriel)
 
 ### Tarefas (issues)
 
 1. Configuração do ambiente de desenvolvimento
-  - Estruturação do projeto em Java.
-  - Integração com sistema de controle de versão (Git).
+    - Estruturação do projeto em Java.
+    - Integração com sistema de controle de versão (Git).
      
 2. Interface do Usuário
-  - Design e desenvolvimento da interface do usuário.
-  - Implementação de funcionalidades de visualização e navegação.
+    - Design e desenvolvimento da interface do usuário.
+    - Implementação de funcionalidades de visualização e navegação.
     
 3. Módulo de Análise de Hemogramas e Banco de Dados
-  - Criação de algoritmos para contagem de hemácias, leucócitos e plaquetas.
-  - Desenvolvimento de métodos para identificação de anomalias e condições clínicas.
-  - Criação do banco de dados para armazenar informações do usuário. 
+    - Criação de algoritmos para contagem de hemácias, leucócitos e plaquetas.
+    - Desenvolvimento de métodos para identificação de anomalias e condições clínicas.
+    - Criação do banco de dados para armazenar informações do usuário. 
 
 4. Testes e validação dos algoritmos de análise
-  - Desenvolvimento de casos de teste.
-  - Realização de testes de integração e sistema.
+    - Desenvolvimento de casos de teste.
+    - Realização de testes de integração e sistema.
 
 5. Modelagem
-  - Criação de diagrama de classes e diagramas de sequência.
-  - Criação de casos de uso.
+    - Criação de diagrama de classes e diagramas de sequência.
+    - Criação de casos de uso.
 
 6. Documentação
-  - Criação da documentação técnica do projeto.
-  - Manutenção contínua da documentação.
+    - Criação da documentação técnica do projeto.
+    - Manutenção contínua da documentação.
 
 ### Atribuições de Tarefas e prazos
 
 1. Configuração do ambiente de desenvolvimento
-  - Responsável: Ana Clara
-  - Prazo: 1 semana, manutenção ao longo do projeto
+    - Responsável: Ana Clara
+    - Prazo: 1 semana, manutenção ao longo do projeto
      
 2. Interface do Usuário
-  - Responsável: Gabriel
-  - Prazo: 5 semanas
+    - Responsável: Gabriel
+    - Prazo: 5 semanas
     
 3. Módulo de Análise de Hemogramas e Banco de Dados
-  - Responsável: Iker
-  - Prazo: 5 semanas 
+    - Responsável: Iker
+    - Prazo: 5 semanas 
 
 4. Testes e validação dos algoritmos de análise
-  - Responsável: João Pedro
-  - Prazo: 2 semanas, manutenção ao longo do projeto
+    - Responsável: João Pedro
+    - Prazo: 2 semanas, manutenção ao longo do projeto
 
 5. Modelagem
-  - Responsável: Jeovane
-  - Prazo: 3 semanas
+    - Responsável: Jeovane
+    - Prazo: 3 semanas
 
 6. Documentação
-  - Responsável: Ana Clara
-  - Prazo: 1 semana, manutenção ao longo do projeto
+    - Responsável: Ana Clara
+    - Prazo: 1 semana, manutenção ao longo do projeto
 
 
 
