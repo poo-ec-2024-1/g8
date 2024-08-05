@@ -4,7 +4,6 @@ import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
-
 import java.util.Map;
 
 public class Main extends Application {
@@ -51,26 +50,26 @@ public class Main extends Application {
             GridPane.setConstraints(categoryChoice, 1, 3);
 
             // Campos de entrada do hemograma
-            Label hemogramLabel = new Label("Dados do Hemograma:");
+            Label hemogramLabel = new Label("DADOS DO HEMOGRAMA:");
             GridPane.setConstraints(hemogramLabel, 0, 4);
             GridPane.setColumnSpan(hemogramLabel, 2);
 
             // Lista de parâmetros do hemograma
             String[] parametros = {
-                "Contagem Diferencial de Glóbulos Brancos - Neutrófilos Segmentados",
-                "Hemoglobina Celular Média",
+                "Hemoglobina",
                 "Hematócrito",
                 "Volume Celular Médio",
-                "Contagem Diferencial de Glóbulos Brancos - Neutrófilos Bastonetes",
-                "Contagem Diferencial de Glóbulos Brancos - Basófilos",
-                "Amplitude de Distribuição dos Eritrócitos",
-                "Contagem Diferencial de Glóbulos Brancos - Linfócitos",
-                "Hemoglobina",
-                "Contagem Diferencial de Glóbulos Brancos - Monócitos",
-                "Contagem de Glóbulos Vermelhos",
+                "Hemoglobina Celular Média",
                 "Concentração de Hemoglobina Celular",
+                "Contagem de Glóbulos Vermelhos",
+                "Amplitude de Distribuição dos Eritrócitos",
                 "Contagem de Glóbulos Brancos",
+                "Contagem Diferencial de Glóbulos Brancos - Neutrófilos Bastonetes",
+                "Contagem Diferencial de Glóbulos Brancos - Neutrófilos Segmentados",
+                "Contagem Diferencial de Glóbulos Brancos - Linfócitos",
+                "Contagem Diferencial de Glóbulos Brancos - Monócitos",
                 "Contagem Diferencial de Glóbulos Brancos - Eosinófilos",
+                "Contagem Diferencial de Glóbulos Brancos - Basófilos",
                 "Contagem de Plaquetas"
             };
 
@@ -86,15 +85,15 @@ public class Main extends Application {
             }
 
             // Botão para processar dados
-            Button processButton = new Button("Processar");
-            GridPane.setConstraints(processButton, 0, 5 + parametros.length);
+            Button processButton = new Button("Analisar Hemograma");
+            GridPane.setConstraints(processButton, 1, 5 + parametros.length);
             GridPane.setColumnSpan(processButton, 2);
 
             // Área de resultado
             TextArea resultArea = new TextArea();
             resultArea.setEditable(false);
             GridPane.setConstraints(resultArea, 0, 6 + parametros.length);
-            GridPane.setColumnSpan(resultArea, 2);
+            GridPane.setColumnSpan(resultArea, 20);
 
             processButton.setOnAction(e -> {
                 try {
