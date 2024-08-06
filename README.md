@@ -111,4 +111,5 @@ Desenvolver um software em Java para realizar a análise automatizada de hemogra
 
 
 ### Diagrama de Classes
-![Diagrama de Classes](https://github.com/poo-ec-2024-1/g8/assets/152391066/35ba8830-0cf2-41ec-afe9-258865ae375e)
+
+![Captura de tela 2024-08-06 201847](https://github.com/user-attachments/assets/74d675eb-aa5a-4e2b-8f23-6bef2ecf2bd9)
