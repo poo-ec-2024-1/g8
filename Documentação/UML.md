@@ -1,5 +1,2 @@
-## Diagramas de Sequência 
-
 ## Diagramas de Classes
-
-## Casos de uso
+![Diagrama_classes](imgs/Diagrama_classes.jpg)
