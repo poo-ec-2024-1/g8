@@ -5,3 +5,9 @@ O hemograma completo é vital para avaliar a saúde geral, mas muitos laboratór
 [Ata de Reunião 06-07](https://drive.google.com/file/d/1UJJwdotSa1kxlTq-Svp7UiPbEDXu5EEv/view?usp=drivesdk)
 
 ## Desenhos e Rascunhos
+
+### Esquema de classes
+![Esq_classes](imgs/Esq_classes.jpg)
+
+### Esquema de código 
+![Esq_codigo](imgs/Esq_codigo.jpg)
