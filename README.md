@@ -1,5 +1,7 @@
 # Documentação do Projeto: Hemograma Completo em Java
 
+[Link de Vídeo de Apresentação](https://drive.google.com/file/d/1d8Sb9jZzR3fY4HyNVrKqq_HQffiUMQcE/view?usp=drive_web)
+
 ## Seção 1 - Introdução
 
 ### Justificativa:
